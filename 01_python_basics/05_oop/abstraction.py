@@ -1,7 +1,9 @@
 # abstraction
+# run time polymorphism or overriding
+
 from abc import ABC, abstractmethod
 
-class Animal():
+class Animal(ABC):
     @abstractmethod
     def make_sound(self):
         pass
