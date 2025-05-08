@@ -7,7 +7,7 @@ stack.append(100)
 stack.append(200)
 stack.append(300)
 
-print(f"  Stack (deque): {list(stack)}")
+print(f" Stack (deque): {list(stack)}")
 
 item = stack.pop()
 print(f"  Popped from deque: {item}")

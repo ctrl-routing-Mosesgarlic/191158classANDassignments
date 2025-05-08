@@ -13,5 +13,5 @@ numbers.reverse()
 print(f"  Reversed list: {numbers}")
 
 # List Comprehension
-squares = [x**2 for x in range(5)]
+squares = [x**2 for x in range(6)]
 print(f"  Squares using list comprehension: {squares}")

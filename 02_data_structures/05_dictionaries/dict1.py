@@ -15,7 +15,7 @@ print(f"  GPA: {student.get('gpa', 'N/A')}")  # Key not found, returns 'N/A'
 student["age"] = 21
 student["major"] = "Computer Science"
 
-print(f"  Updated student: {student}")
+print(f" Updated student: {student}")
 
 # Removing Key-Value Pairs
 del student["grade"]
